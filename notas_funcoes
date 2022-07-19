@@ -1,0 +1,8 @@
+def teste():
+    while numero > 10:
+        print('Maior')
+    else:
+        print('Menor')
+teste = int(input('Digite um numero: '))
+print(numero)
+

@@ -1,0 +1,16 @@
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print('Por partes')
+filter(lambda num: num % 2 == 0, numeros)
+print('Foram filtrados os numeros pares')
+
+map(lambda n: n ** 2, filter(lambda num: num % 2 == 0, numeros))
+print('Map recebeu os numeros filtrados, e agora serão elevados ao ²')
+result = list(map(lambda n: n ** 2, filter(lambda num: num % 2 == 0, numeros)))
+print('Convertemos as funções em listas, para podermos imprimir os resultados')
+print(result)
+
+
+
+
+
+
